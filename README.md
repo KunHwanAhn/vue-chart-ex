@@ -1,4 +1,4 @@
-# chart-ex
+# vue-chart-ex
 
 ## Project setup
 ```
