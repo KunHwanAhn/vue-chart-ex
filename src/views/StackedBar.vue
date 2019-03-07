@@ -17,7 +17,6 @@ export default {
   extends: DefaultChart,
   data() {
     return {
-      chart: null,
       type: 'bar',
       customOptions: {
         aspectRatio: 1.5,

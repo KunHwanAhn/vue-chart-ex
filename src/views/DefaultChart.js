@@ -15,7 +15,8 @@ export default {
   },
   data() {
     return {
-      type: 'line',
+      type: null,
+      chart: null,
       customOptions: {},
       defaultOptions: {
         // Responsive
