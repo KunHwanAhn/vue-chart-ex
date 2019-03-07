@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">vue-chartjs</router-link> |
-      <router-link to="/chartjs">chartjs</router-link>
+      <router-link to="/">home</router-link>
+      <!-- <router-link to="/stacked-bar">stacked-bar</router-link> |
+      <router-link to="/donut">donut</router-link> -->
     </div>
     <router-view/>
   </div>
