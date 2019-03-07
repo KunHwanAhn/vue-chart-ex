@@ -70,8 +70,8 @@ export default {
       // `this` will be the overall tooltip
       var chartPosition = this.chart.canvas.getBoundingClientRect();
 
-      console.log(JSON.stringify(chartPosition))
-      console.log(JSON.stringify(tooltipModel))
+      // console.log(JSON.stringify(chartPosition))
+      // console.log(JSON.stringify(tooltipModel))
 
       // Display, position, and set styles for font
       tooltipEl.style.opacity = 1;
