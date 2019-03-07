@@ -7,9 +7,6 @@
 </template>
 
 <script>
-// TODO: Chart 내부의 Grid ON/OFF 옵션 확인
-// TODO: Custom Tooltip
-
 import DefaultChart from './DefaultChart'
 
 export default {

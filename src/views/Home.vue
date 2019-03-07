@@ -13,6 +13,15 @@
 </template>
 
 <script>
+// TODO: Chart 내부의 Grid ON/OFF 옵션 확인
+// TODO: Custom Tooltip
+// TODO: type 없는 상태로 작업할 경우 어떻게 되는가?
+// TODO: vue-chartjs의 Customized Tooltip 확인
+// TODO: 확장한 변수들 call-by-reference인지 call-by-value 인지 확인 필요 or immutable인지?
+// TODO: Component에 데이터 전달 되기 전에 내부 Method 사용 가능한지?
+// TODO: 확장의 확장의 확장....같은 경우도 고민?
+// TODO: ChartID 관리하는 방법은?
+
 import { range } from 'lodash'
 import StackedBar from './StackedBar'
 import Donut from './Donut'
@@ -31,12 +40,12 @@ export default {
         labels: range(1, 13).map(v => `${v}월`),
         datasets: [
           {
-            label: 'A',
+            label: '원금',
             data: range(10, 130, 10),
             backgroundColor: '#828282'
           },
           {
-            label: 'B',
+            label: '이자',
             data: range(1, 13),
             backgroundColor: '#17ccb4'
           }
