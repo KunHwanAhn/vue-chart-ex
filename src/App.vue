@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">vue-chartjs</router-link> |
       <router-link to="/chartjs">chartjs</router-link>
     </div>
     <router-view/>
