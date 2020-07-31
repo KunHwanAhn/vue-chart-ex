@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/chartjs">chartjs</router-link>
+      <router-link to="/bar-chart">Bar Chart</router-link>
+      | <router-link to="/stacked-bar-chart">Stacked Bar Chart</router-link>
     </div>
     <router-view/>
   </div>

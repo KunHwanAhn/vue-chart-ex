@@ -1,20 +1,19 @@
 <template>
-  <div class="chartjs">
-    <canvas :id="CHART_ID"></canvas>
+  <div class="chart-container">
+    <canvas :id="$options.CHART_ID"></canvas>
   </div>
 </template>
 
 <script>
 import Chart from 'chart.js'
-import { data, options } from './chartData'
+import { data, options } from './barChart'
 
 const CHART_ID = 'my-chart'
 
 export default {
-  name: 'Chartjs',
+  CHART_ID,
   data() {
     return {
-      CHART_ID,
     }
   },
   mounted() {
@@ -28,3 +27,9 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.chart-container {
+  min-height: 500px;
+}
+</style>

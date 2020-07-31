@@ -24,6 +24,7 @@ export const data = {
 }
 
 export const options = {
+  maintainAspectRatio: false,
   scales: {
     yAxes: [{
       ticks: {
